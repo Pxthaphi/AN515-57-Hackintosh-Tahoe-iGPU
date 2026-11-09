@@ -1,0 +1,14 @@
+# Never commit a real identity or Wi-Fi credentials: build the shared EFI with
+#   python tools/build_efi.py --public --out <repo>/EFI
+__pycache__/
+*.pyc
+build/
+logs/
+*.zip
+*.pkg
+*.dmg
+config.plist.orig
+config.plist.pre-wex
+EFI-prev/
+.DS_Store
+Thumbs.db
